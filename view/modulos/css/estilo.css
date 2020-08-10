@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/0.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100hv;
+}
+
+.formato {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+    opacity: 0.9;
+}
+
+.formato .avatar {
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 7px;
+    left: calc(50% - 40px);
+}
+
+.formato h1{
+    margin: 0;
+    padding: 0 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.formato h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: inherit;
+    font-size: 18px;
+}
+
+.formato input {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.formato input:focus{
+    border-bottom-color: #E17800;
+
+}
+
+ .formato input[type="submit"] {
+    width: 30%;
+    border: none;
+    height: 40px;
+    background: transparent;
+    color: #E17800;
+    font-size: 16px;
+    height: 40px;
+    border-top: 1px solid #E17800;
+    border-bottom: 1px solid #E17800;
+    border-left: 1px solid #E17800;
+    border-right: 1px solid #E17800; 
+}
+
+.formato input[type="submit"]:hover {
+    background: #E17800;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+

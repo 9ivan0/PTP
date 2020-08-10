@@ -1,0 +1,136 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/0.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100hv;
+}
+
+.container {
+    max-width: 450px;
+    height: auto;
+    background-color: #000000;
+    margin: 4% auto;
+    padding-bottom: 1rem;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.form__top h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.form__reg {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+.btn__form {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.input {
+    background-color: #000000;
+    color: #ffffff;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #ffffff .2rem;
+    transition: all .5s;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    
+}
+
+.input:focus {
+    border-bottom: solid #F35553 .2rem;
+    outline: none;
+}
+
+.btn__submit {
+    width: 40%;
+    background: transparent;
+    color: #FA3535;
+    font-size: 19px;
+    border-bottom: 2px solid #BD2525;
+    border-top: 2px solid #BD2525;
+    border-right: 2px solid #BD2525;
+    border-left: 2px solid #BD2525;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+.btn__reset {
+    width: 40%;
+    background: transparent;
+    color: #E17800;
+    border-bottom: 2px solid #E17800;
+    border-top: 2px solid #E17800;
+    border-right: 2px solid #E17800;
+    border-left: 2px solid #E17800;
+    font-size: 19px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn__submit:hover {
+    background-color: #BD2525;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.btn__reset:hover {
+    background-color: #E17800;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.login{
+    margin-top: -630px;
+    margin-left: 1200px;
+    justify-content: center;
+    align-content: center;
+}
+
+.login input{
+    
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    background: transparent;
+    padding: 5px;
+    width: 50%;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login input:hover{
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    transition: all 0.3s ease;
+}

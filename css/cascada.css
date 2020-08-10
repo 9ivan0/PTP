@@ -1,0 +1,79 @@
+.parrafos{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+#titulo-seccion1{
+    padding-top:5%;
+}
+
+#imagen2{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+#imagen{
+    padding-top:7%
+}
+
+#imagenes-cascada{
+   margin-left: 7%;
+   display: inline-flex;
+   float: left;
+   width: 42%;
+}
+#seccion-tienda{
+    padding-bottom:70px;
+    background-color: #D9D9D9;
+}
+#texto-seccionh {
+    text-align: left;
+    padding-right: 45px;
+    padding-top:45px;
+    display: flex;
+    float: left;
+    width: 50%;
+    background-color: #A6A08D;
+
+}
+
+#titulo-rh{
+ padding-left: 8%;
+ padding-bottom: 4%;
+ padding-top: 4%;
+
+}
+
+#parrafo-rh{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    padding: 30%;
+    padding-bottom: 3%;
+    justify-content: center;
+}
+
+#titulo-rm{
+    text-align: end;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-right: 3%;
+
+}
+
+.tenis {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
